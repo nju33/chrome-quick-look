@@ -8,4 +8,4 @@ Quick Look for that link in a quick window.
 
 ## Install
 
-[Quick Look - Chrome Extension]()
+[Quick Look - Chrome Extension](https://chrome.google.com/webstore/detail/quick-look/kmcjdjgkbbljpfpliadpbaomhnhdjmle)
