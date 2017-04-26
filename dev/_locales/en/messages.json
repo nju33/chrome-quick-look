@@ -1,0 +1,11 @@
+{
+  "name": {
+    "message": "Quick Look"
+  },
+  "desc": {
+    "message": "Quick Look for that link in a quick window"
+  },
+  "contextTitle": {
+    "message": "Quick Look"
+  }
+}
