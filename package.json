@@ -1,6 +1,6 @@
 {
   "name": "quick-look",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Quick Look for that link in a quick window",
   "scripts": {
     "start": "webpack -w",

@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const iframe = document.createElement('iframe');
     iframe.className = 'webview';
     iframe.src = url;
-    iframe.setAttribute('sandbox', 'allow-forms');
     iframe.addEventListener('load', () => {
       loader.style.opacity = 0;
     });

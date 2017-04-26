@@ -1,4 +1,16 @@
 let currentWin = null;
+// let currentTab = null;
+
+// function getCurrentTab() {
+//   return new Promise(resolve => {
+//     chrome.tabs.query({
+//       active: true,
+//       currentWindow: true
+//     }, tabs => {
+//       resolve(tabs[0]);
+//     });
+//   });
+// }
 
 function createWindow(url) {
   return new Promise(resolve => {
@@ -12,9 +24,10 @@ function createWindow(url) {
 }
 
 async function quickLook(url) {
-  const popupFilename = chrome.runtime.getURL('popup.html');
-  const win = await createWindow(`${popupFilename}#${encodeURI(url)}`);
-  currentWin = win;
+  currentWin = await createWindow(url);
+  // const popupFilename = chrome.runtime.getURL('popup.html');
+  // currentWin = await createWindow(`${popupFilename}#${encodeURI(url)}`);
+  // currentTab = await getCurrentTab();
 }
 
 chrome.windows.onFocusChanged.addListener(wid => {
@@ -27,6 +40,23 @@ chrome.windows.onFocusChanged.addListener(wid => {
     });
   }
 });
+
+// chrome.webRequest.onHeadersReceived.addListener(async details => {
+//   if (details.tabId !== currentTab.id) {
+//     return;
+//   }
+//
+//   for (var i = 0; i < details.responseHeaders.length; ++i) {
+//     if (details.responseHeaders[i].name.toLowerCase() == 'x-frame-options') {
+//       console.log(details.responseHeaders[i]);
+//       details.responseHeaders.splice(i, 1);
+//       console.log(details.responseHeaders[i]);
+//       return {responseHeaders: details.responseHeaders};
+//     }
+//   }
+// }, {
+//     urls: ["<all_urls>"]
+// }, ["blocking", "responseHeaders"]);
 
 chrome.contextMenus.removeAll(() => {
   chrome.contextMenus.create({
