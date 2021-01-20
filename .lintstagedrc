@@ -1,0 +1,14 @@
+{
+  "*.ja.md": [
+    "textlint"
+  ],
+  "*.+(js|ts)?(x)": [
+    "eslint --fix"
+  ],
+  "*.+(html|graphql)": [
+    "prettier --write"
+  ],
+  "*.{png,jpeg,jpg,gif,svg}": [
+    "imagemin-lint-staged"
+  ]
+}

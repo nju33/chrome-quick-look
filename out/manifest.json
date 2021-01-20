@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_name__",
+  "description": "__MSG_desc__",
+  "version": "1.0.1",
+  "default_locale": "en",
+  "permissions": ["contextMenus", "storage"],
+  "icons": {
+    "16": "icon/icon16x16.png",
+    "48": "icon/icon48x48.png",
+    "128": "icon/icon128x128.png"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "content_security_policy": "script-src https://kit.fontawesome.com/1ba52c82c4.js 'sha256-ts8aW8Rd9KWcT6JkIPH7pDbl7DgAIgYMSglignYTFjs=' 'sha256-KD8E8s+Y4SbUCYTZ8sbNzljN9csEogfcBifJo0E8+iU=' 'self' 'unsafe-eval'; object-src 'self'"
+}

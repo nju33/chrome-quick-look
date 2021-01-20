@@ -1,0 +1,32 @@
+{
+  "name": {
+    "message": "Quick Look"
+  },
+  "desc": {
+    "message": "Quick Look for that link in a quick window"
+  },
+  "contextTitle": {
+    "message": "Quick Look"
+  },
+  "defaultWindowSize": {
+    "message": "Default Window Size"
+  },
+  "height": {
+    "message": "Height"
+  },
+  "width": {
+    "message": "Width"
+  },
+  "inheritPreviousWindowSize": {
+    "message": "Inherit previous window size"
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "saved": {
+    "message": "Saved"
+  }
+}

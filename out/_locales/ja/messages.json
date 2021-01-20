@@ -1,0 +1,32 @@
+{
+  "name": {
+    "message": "クイックルック"
+  },
+  "desc": {
+    "message": "クイックなウィンドウでそのリンクをクイックルックする。"
+  },
+  "contextTitle": {
+    "message": "クイックルック"
+  },
+  "defaultWindowSize": {
+    "message": "デフォルトのウィンドウサイズ"
+  },
+  "height": {
+    "message": "縦"
+  },
+  "width": {
+    "message": "横"
+  },
+  "inheritPreviousWindowSize": {
+    "message": "前回のウィンドウサイズを引き継ぐ"
+  },
+  "reset": {
+    "message": "リセット"
+  },
+  "add": {
+    "message": "追加"
+  },
+  "saved": {
+    "message": "保存しました"
+  }
+}
