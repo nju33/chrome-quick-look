@@ -1,9 +1,9 @@
 {
-  "name": {
+  "appName": {
     "message": "Quick Look"
   },
-  "desc": {
-    "message": "Quick Look for that link in a quick window"
+  "appDesc": {
+    "message": "Browse a links for a bit (until you focus out)"
   },
   "contextTitle": {
     "message": "Quick Look"

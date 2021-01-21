@@ -1,9 +1,9 @@
 {
-  "name": {
+  "appName": {
     "message": "クイックルック"
   },
-  "desc": {
-    "message": "クイックなウィンドウでそのリンクをクイックルックする。"
+  "appDesc": {
+    "message": "ちょっと（フォーカスが外れるまで）だけリンク先を拝見する"
   },
   "contextTitle": {
     "message": "クイックルック"
